@@ -1,0 +1,82 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="styles/style.scss")
+    body 
+
+    header 
+        nav 
+            ul 
+                li Каталог
+                li Акции
+                li О нас
+                li Контакты
+
+    .container
+        .banner
+            img(src="png/audi.jpg", alt="")
+        
+        .cars 
+            h2 Популярные машины
+            .item
+                img(src="png/aston.jpg", alt="")
+                p Aston Martin
+            .item
+                img(src="png/mercedes.jpg", alt="")
+                p Mercedes-Benz SLS AMG 2010 Red
+            .item
+                img(src="png/ford.jpg", alt="")
+                p Ford GT
+
+    .container
+        .text1 
+            h2 Спортивные автомобили
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sed amet veritatis voluptatibus veniam repellat in quas magni quasi ipsa. Quidem atque ab porro officiis magni fugiat alias, doloremque adipisci.
+            p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptates ut ea unde ab iste enim, natus accusantium aspernatur, voluptas quaerat nesciunt inventore atque cupiditate dolorem eos doloribus, totam in.
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, numquam eligendi voluptatibus distinctio sit doloribus ex enim repudiandae quidem beatae quisquam perferendis ab repellendus quia, voluptatum delectus obcaecati laboriosam! Id!
+
+    .container
+        table
+            h2 Фирмы
+            tr 
+                td Название
+                td Страна
+                td Год основания
+                td Специализация
+            tr 
+                td AC Cobra
+                td rowspan="2" Англия
+                td 1961
+                td rowspan="2" Только спортивные автомобили
+            tr 
+                td Aston Martin
+                td 1913
+            tr 
+                td Bugatti
+                td Франция
+                td 1909
+                td Суперкары, гиперкары, автомобили класса Люкс, гоночные автомобили
+            tr 
+                td De Tomaso
+                td rowspan="2" Италия
+                td 1959
+                td Спортивные и легкие автомобили
+            tr 
+                td Ferrari
+                td 1947
+                td Гоночные автомобили и суперкары
+
+    .container
+        .forma 
+            form(action="")
+                label for="email" Введите свой емайл 
+                input type="text"
+                .button1 
+                    button type="submit" Подписаться
+    
+    .container
+        footer 
+            p Экзаменационная работа студента группы ИСП212А Степанова Дмитрия
